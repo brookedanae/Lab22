@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\scott\\source\\repos\\Lab22\\Lab22\\Lab22.csproj": {}
+    "C:\\Users\\Brooke\\source\\repos\\Lab22\\Lab22\\Lab22.csproj": {}
   },
   "projects": {
-    "C:\\Users\\scott\\source\\repos\\Lab22\\Lab22\\Lab22.csproj": {
+    "C:\\Users\\Brooke\\source\\repos\\Lab22\\Lab22\\Lab22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\scott\\source\\repos\\Lab22\\Lab22\\Lab22.csproj",
+        "projectUniqueName": "C:\\Users\\Brooke\\source\\repos\\Lab22\\Lab22\\Lab22.csproj",
         "projectName": "Lab22",
-        "projectPath": "C:\\Users\\scott\\source\\repos\\Lab22\\Lab22\\Lab22.csproj",
-        "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\scott\\source\\repos\\Lab22\\Lab22\\obj\\",
+        "projectPath": "C:\\Users\\Brooke\\source\\repos\\Lab22\\Lab22\\Lab22.csproj",
+        "packagesPath": "C:\\Users\\Brooke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brooke\\source\\repos\\Lab22\\Lab22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brooke\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Apis.Core": {
+              "target": "Package",
+              "version": "[1.51.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

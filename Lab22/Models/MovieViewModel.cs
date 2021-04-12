@@ -9,10 +9,12 @@ namespace Lab22.Models
     public class MovieViewModel
     {
 
-        public MovieViewModel(string title, string genre)
+        public MovieViewModel(string title, MovieGenre genre, string actors, string year)
         {
-            Title = Title;
+            Title = title;
             Genre = genre;
+            Actors = actors;
+            Year = year;
         }
 
         [Display(Name = "Title")]
@@ -22,15 +24,14 @@ namespace Lab22.Models
 
         [Display(Name = "Genre")]
         [Required]
-        public string Genre { get; }
-
-        [Display(Name = "Year")]
-        public string Year { get; set; }
+        public MovieGenre Genre { get; }
 
         [Display(Name = "Actors")]
+        [Required]
         public string Actors { get; set; }
 
-        [Display(Name = "Directors")]
-        public string Directors { get; set; }
+        [Display(Name = "Year")]
+        [Required]
+        public string Year { get; set; }
     }
 }
